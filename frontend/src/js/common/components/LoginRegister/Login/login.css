@@ -1,0 +1,53 @@
+.login-overlay .panel-body{
+    min-height: 244px;
+}
+.has-feedback{
+    position: relative;
+}
+.form-control-feedback{
+    right: 10px;
+    left: auto;
+    top: 10px;
+    position: absolute;
+}
+.login-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-login {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+
+}
+.bienvenida{
+    color:white;
+    font-weight: bold;
+}
+.buttons-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-gradient-bg{
+    height: 100vh;
+    background: #76b852;
+
+}
+
+.boton-login{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
